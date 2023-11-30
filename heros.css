@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #e1e1e1;
+  font-family: poppins, Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  gap: 50px;
+  padding-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+#hero-1,
+#hero-2 {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 63vh;
+  gap: 20px;
+  padding: 30px 397px;
+  box-shadow: 5px 5px 20px 3px rgba(0, 0, 0, 0.2);
+}
+
+#hero-1-logo-div {
+  display: flex;
+  align-items: center;
+}
+
+#hero-1-text-div,
+#hero-2-text-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+#hero-1-text-div h1 {
+  font-size: 45px;
+  font-weight: 900;
+}
+
+#hero-1-text-div p,
+#hero-1-text-div p {
+  font-size: 17px;
+  color: #6c757d;
+  line-height: 30px;
+}
+
+#hero-1-button-div,
+#hero-1-text-div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  height: auto;
+  width: auto;
+}
+
+button {
+  padding: 15px 38px;
+  font-size: 18px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.blue-button {
+  background-color: #1870f3;
+  color: #ffffff;
+  border: none;
+}
+
+.white-button {
+  background-color: #ffffff;
+  color: #6c757d;
+  border: #6c757d solid 1px;
+}
+
+/* **************Second Hero**************** */
+#hero-2 {
+  height: 85vh;
+}
+
+#hero-2-text-div h1 {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+#hero-2-image-div {
+  display: flex;
+  align-items: center;
+  height: 40%;
+  width: 100%;
+  background-color: #1870f3;
+}
