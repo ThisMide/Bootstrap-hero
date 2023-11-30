@@ -27,6 +27,7 @@ body {
   gap: 20px;
   padding: 30px 397px;
   box-shadow: 5px 5px 20px 3px rgba(0, 0, 0, 0.2);
+  position: relative;
 }
 
 #hero-1-logo-div {
@@ -76,10 +77,19 @@ button {
   border: none;
 }
 
+.blue-button:hover {
+  background-color: #0a53c0;
+}
+
 .white-button {
   background-color: #ffffff;
   color: #6c757d;
   border: #6c757d solid 1px;
+}
+
+.white-button:hover {
+  background-color: #6c757d;
+  color: #ffffff;
 }
 
 /* **************Second Hero**************** */
@@ -95,7 +105,20 @@ button {
 #hero-2-image-div {
   display: flex;
   align-items: center;
-  height: 40%;
+  height: 50%;
   width: 100%;
-  background-color: #1870f3;
+  border-radius: 10px;
+  background-image: url(https://images.unsplash.com/photo-1699446431892-67959b9b93ec?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHx0b3BpYy1mZWVkfDE0MXw2c01WalRMU2tlUXx8ZW58MHx8fHx8);
+  background-repeat: no-repeat;
+  background-size: cover;
+  box-shadow: 5px 7px 20px 10px rgba(0, 2, 3, 0.2);
+}
+
+#hero-2-empty-div {
+  display: flex;
+  padding: 20px 100%;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: 30px;
+  border-top: rgba(161, 166, 171, 0.5) solid 1px;
 }
